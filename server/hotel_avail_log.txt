@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<response>
+  <ERROR>998</ERROR>
+  <ERRORMSG>soap-env:Client.Validation</ERRORMSG>
+  <hints/>
+<request>
+    <type>book</type>
+    <conditions>
+      <language>EN</language>
+      <ofr_id>827041285083b0dff99d74bee7629ba12c8ff3065b0ccb4bad14290f640ed979</ofr_id>
+      <ofr_tourOp>XSAB</ofr_tourOp>
+      <par_adt>1</par_adt>
+    </conditions>
+    <forminfo>
+      <Person type="adult">
+        <gender required="1">H</gender>
+        <lastname required="1">Olushola</lastname>
+        <name required="1">Adedokun</name>
+        <birthdate required="1">25.09.1984</birthdate>
+		<email required="1">sholadedokun@yahoo.com</email>
+        <phone required="1">+2348056666969</phone>
+		<additional>
+          <contact>
+            <phone/>
+            <email/>
+          </contact>
+          <document>
+            <doctype/>
+            <country>NG</country>
+            <number/>
+            <nationality/>
+            <expiry/>
+          </document>
+          <address>
+            <country>NG</country>
+            <street/>
+            <streetNr/>
+            <city/>
+            <state/>
+            <zipcode/>
+          </address>
+        </additional>
+		
+      </Person>
+      <Client>
+        <gender required="1">H</gender>
+        <lastname required="1">Olushola</lastname>
+        <name required="1">Adedokun</name>
+        <street required="1">test</street>
+        <streetNr required="1">123</streetNr>
+        <zipcode required="1">12-345</zipcode>
+        <city required="1">testtt</city>
+        <state required="1">test</state>
+        <country required="1">NG</country>
+        <email required="1">sholadedokun@yahoo.com</email>
+        <phone required="1">+2348056666969</phone>
+      </Client>
+	  <Company>
+		  <name_company required="1">
+			<type>text</type>
+			<value>GRAND EXPRESS TOUR CENTRE</value>
+		  </name_company>
+		  <street required="1">
+			<type>text</type>
+			<value>NO 4 SALVATION ROAD OFF OPEBI</value>
+		  </street>		  
+		  <city required="1">
+			<type>text</type>
+			<value>IKEJA LAGOS</value>
+		  </city>
+		  <country required="1">
+			<type>select</type>
+			<value>NG</value>
+		   </country>
+		  <email required="1">
+			<type>bolaji@getcentre.com</type>
+		  </email>
+		  <phone required="1">
+			<type>phone</type>
+			<value>08023018948</value>
+		  </phone>
+		</Company>
+	  
+      <Margin>
+        <amount required="1">
+		  <type>float</type>
+          <value/>
+		</amount>
+        <currency>
+		  <type>text</type>
+          <value>NGN</value>
+		</currency>
+        <marginType required="1">
+          <type>text</type>
+          <value/>
+        </marginType>
+        <type required="1">
+          <type>text</type>
+          <value>amount</value>
+        </type>
+      </Margin>
+	  <Markdown>
+        <amount required="1">
+          <type>float</type>
+          <value>0.00</value>
+        </amount>
+        <currency>
+          <type>text</type>
+          <value>NGN</value>
+        </currency>
+      </Markdown>
+	  <Commision>
+        <amount required="1">
+          <type>float</type>
+          <value>0.00</value>
+        </amount>
+        <currency>
+          <type>text</type>
+          <value/>
+        </currency>
+      </Commision>
+	  
+      <Transaction_fee>
+        <amount required="1">
+          <type>float</type>
+          <value>0.00</value>
+        </amount>
+        <currency>
+          <type>text</type>
+          <value>NGN</value>
+        </currency>
+      </Transaction_fee>
+	  <paymentTable>
+        <paymentItem id="0" code="t" description="GetCentrePay" range="fullprice" bookingType="offline" prc="0"/>
+      </paymentTable>
+	  
+	  <BankTransfer>true</BankTransfer>
+	 <LastTicketDate>
+        <date required="1">10.05.15T12:00</date>
+	 </LastTicketDate>
+	 
+      <Expected_price>
+        <amount required="1">148873.00</amount>
+        <currency>NGN</currency>
+		<addSrv>0.00</addSrv>
+      </Expected_price>
+    <CreditCard><number>XXXX XXXX XXXX </number><code>XXX</code></CreditCard></forminfo>
+  </request>  <offer>
+    <type>NF</type>
+    <outbound>
+      <leg0 depCode="LOS" desCode="CMN" depDate="2015-05-20" depTime="06:30" desDate="2015-05-20" desTime="11:00" durationTime="4:30" equipmentType="738" flightClass="U" flightNumber="554" carrierCode="AT" operatedBy="AT" marketingAirline="AT" validatingCarrierCode="AT" marriageGrpInd="O" fareBasisCode="UPROAFR" seatsAvail="9" mealsIncl="" depDesc="Lagos" depDescExt="Murtala Muhammed" desDesc="Casablanca" desDescExt="Muhammad V" carrierCodeDesc="Royal Air Maroc" operatedByDesc="Royal Air Maroc" marketingAirlineDesc="Royal Air Maroc" validatingCarrierCodeDesc="Royal Air Maroc"/>
+      <leg1 depCode="CMN" desCode="LHR" depDate="2015-05-20" depTime="13:40" desDate="2015-05-20" desTime="16:50" durationTime="3:10" equipmentType="738" flightClass="U" flightNumber="800" carrierCode="AT" operatedBy="AT" marketingAirline="AT" validatingCarrierCode="AT" marriageGrpInd="I" fareBasisCode="UPROAFR" seatsAvail="9" mealsIncl="" depDesc="Casablanca" depDescExt="Muhammad V" desDesc="London" desDescExt="Heathrow" carrierCodeDesc="Royal Air Maroc" operatedByDesc="Royal Air Maroc" marketingAirlineDesc="Royal Air Maroc" validatingCarrierCodeDesc="Royal Air Maroc"/>
+    </outbound>
+    <outboundTotalTime minutes="620" FlightTime="460"/>
+    <outboundGaps>
+      <gap0 between="leg0/leg1" minutes="160" duration="2:40"/>
+    </outboundGaps>
+    <inbound>
+      <leg0 depCode="LHR" desCode="CMN" depDate="2015-05-27" depTime="18:10" desDate="2015-05-27" desTime="21:25" durationTime="3:15" equipmentType="738" flightClass="U" flightNumber="801" carrierCode="AT" operatedBy="AT" marketingAirline="AT" validatingCarrierCode="AT" marriageGrpInd="O" fareBasisCode="UPROAFR" seatsAvail="9" mealsIncl="" depDesc="London" depDescExt="Heathrow" desDesc="Casablanca" desDescExt="Muhammad V" carrierCodeDesc="Royal Air Maroc" operatedByDesc="Royal Air Maroc" marketingAirlineDesc="Royal Air Maroc" validatingCarrierCodeDesc="Royal Air Maroc"/>
+      <leg1 depCode="CMN" desCode="LOS" depDate="2015-05-28" depTime="01:05" desDate="2015-05-28" desTime="05:35" durationTime="4:30" equipmentType="738" flightClass="U" flightNumber="555" carrierCode="AT" operatedBy="AT" marketingAirline="AT" validatingCarrierCode="AT" marriageGrpInd="I" fareBasisCode="UPROAFR" seatsAvail="9" mealsIncl="" depDesc="Casablanca" depDescExt="Muhammad V" desDesc="Lagos" desDescExt="Murtala Muhammed" carrierCodeDesc="Royal Air Maroc" operatedByDesc="Royal Air Maroc" marketingAirlineDesc="Royal Air Maroc" validatingCarrierCodeDesc="Royal Air Maroc"/>
+    </inbound>
+    <inboundTotalTime minutes="685" FlightTime="465"/>
+    <inboundGaps>
+      <gap0 between="leg0/leg1" minutes="220" duration="3:40"/>
+    </inboundGaps>
+    <persons>
+      <pers0 curr="NGN" price="148873" type="ADT">
+        <tax0 curr="NGN" price="18283" name="YQF"/>
+        <tax1 curr="NGN" price="11148" name="YQF"/>
+        <tax2 curr="NGN" price="11148" name="YQF"/>
+        <tax3 curr="NGN" price="18283" name="YQF"/>
+        <tax4 curr="NGN" price="4433" name="NG1"/>
+        <tax5 curr="NGN" price="10000" name="QT"/>
+        <tax6 curr="NGN" price="4000" name="TE"/>
+        <tax7 curr="NGN" price="994" name="MA3"/>
+        <tax8 curr="NGN" price="994" name="MA3"/>
+        <tax9 curr="NGN" price="2774" name="MA4"/>
+        <tax10 curr="NGN" price="2774" name="MA4"/>
+        <tax11 curr="NGN" price="21503" name="GB6"/>
+        <tax12 curr="NGN" price="12739" name="UB6"/>
+      </pers0>
+    </persons>
+    <inboundflightGaps>
+      <gap0 between="leg0/leg1" duration="3:39"/>
+    </inboundflightGaps>
+    <outboundflightGaps>
+      <gap0 between="leg0/leg1" duration="2:39"/>
+    </outboundflightGaps>
+  </offer>
+  <dictionary>
+    <ssr/>
+    <meal/>
+    <seat/>
+    <doctype/>
+    <country NG="Nigeria"/>
+  </dictionary>
+</response>

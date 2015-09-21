@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="app.min.js" server="getcentre.com" local="130779925862786660" remote="130779673200000000" Dst="0" />
+<file name="booked.min.js" server="getcentre.com" local="130739725554030350" remote="130752986400000000" Dst="0" />
+<file name="breadController.min.js" server="getcentre.com" local="130699453351982916" remote="130752986400000000" Dst="0" />
+<file name="controller.min.js" server="getcentre.com" local="130633533167806948" remote="130752986400000000" Dst="0" />
+<file name="flightCheck.min.js" server="getcentre.com" local="130779562219660598" remote="130779673200000000" Dst="0" />
+<file name="flightList.min.js" server="getcentre.com" local="130779562219660598" remote="130779673200000000" Dst="0" />
+<file name="flightSearch.min.js" server="getcentre.com" local="130779562277403900" remote="130779673200000000" Dst="0" />
+<file name="getAnimations.min.js" server="getcentre.com" local="130699453447838399" remote="130752986400000000" Dst="0" />
+<file name="getcentreFBapp.min.js" server="getcentre.com" local="130779562277363898" remote="130779673200000000" Dst="0" />
+<file name="hotelConfirm.min.js" server="getcentre.com" local="130779562277393900" remote="130779673200000000" Dst="0" />
+<file name="hotelDetails.min.js" server="getcentre.com" local="130731367888343962" remote="130752986400000000" Dst="0" />
+<file name="hotelList.min.js" server="getcentre.com" local="130779562670956410" remote="130779673200000000" Dst="0" />
+<file name="hotelPurchaseConfirm.min.js" server="getcentre.com" local="130714094612770725" remote="130752986400000000" Dst="0" />
+<file name="hotelSearch.min.js" server="getcentre.com" local="130779562670966411" remote="130779673200000000" Dst="0" />
+<file name="hotelSummary.min.js" server="getcentre.com" local="130737945534885554" remote="130752986400000000" Dst="0" />
+<file name="hotelZoneController.min.js" server="getcentre.com" local="130779562670956410" remote="130779673200000000" Dst="0" />
+<file name="moment.min.js" server="getcentre.com" local="130699453528293001" remote="130752986400000000" Dst="0" />
+<file name="myangular_animate.min.js" server="getcentre.com" local="130699453528293001" remote="130752986400000000" Dst="0" />
+<file name="myangular_route.min.js" server="getcentre.com" local="130699453528293001" remote="130752986400000000" Dst="0" />
+<file name="services.min.js" server="getcentre.com" local="130779562679636907" remote="130779673200000000" Dst="0" />
+<file name="tour.min.js" server="getcentre.com" local="130730708915882206" remote="130752986400000000" Dst="0" />
+<file name="myangular.min.js" server="getcentre.com" local="130779562675786687" remote="130779673200000000" Dst="0" />
+<file name="tourCheckout.min.js" server="getcentre.com" local="130737957249115569" remote="130752986400000000" Dst="0" />
+<file name="tourConfirmation.min.js" server="getcentre.com" local="130699487436172421" remote="130752986400000000" Dst="0" />
+<file name="tourConfirm.min.js" server="getcentre.com" local="130734103536765092" remote="130752986400000000" Dst="0" />
+<file name="tourist.min.js" server="getcentre.com" local="130733822470069993" remote="130752986400000000" Dst="0" />
+<file name="tourPurchaseConfirm.min.js" server="getcentre.com" local="130709494009417133" remote="130752986400000000" Dst="0" />
+<file name="tourSummary.min.js" server="getcentre.com" local="130734095287443258" remote="130752986400000000" Dst="0" />
+<file name="tour_list.min.js" server="getcentre.com" local="130779562679636907" remote="130779673200000000" Dst="0" />
+<file name="transfer_list.min.js" server="getcentre.com" local="130729433312167052" remote="130752986400000000" Dst="0" />
+<file name="transferConfirm.min.js" server="getcentre.com" local="130734104093146915" remote="130752986400000000" Dst="0" />
+<file name="transferSummary.min.js" server="getcentre.com" local="130737957667259486" remote="130752986400000000" Dst="0" />
+</dwsync>
